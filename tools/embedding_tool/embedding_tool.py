@@ -228,6 +228,11 @@ class EmbeddingSemanticSearchTool(BaseTool):
         mode = (mode or "baseline").strip().lower()
         top_k = top_k or 5
 
+        print(
+            f"[EMBEDDING TOOL INVOKED] action={action!r} mode={mode!r} repo_paths={repo_paths} "
+            f"query={query!r} changed_files={changed_files} top_k={top_k}"
+        )
+
         if action == "index":
             if mode == "baseline":
                 return self._build_baseline_index(repo_paths)

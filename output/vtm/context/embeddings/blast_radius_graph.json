@@ -1,0 +1,277 @@
+{
+  "vtm::manage.py": {
+    "repo": "vtm",
+    "path": "manage.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [],
+    "risk_tags": []
+  },
+  "vtm::chatbot/apps.py": {
+    "repo": "vtm",
+    "path": "chatbot/apps.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [],
+    "risk_tags": []
+  },
+  "vtm::chatbot/context_processors.py": {
+    "repo": "vtm",
+    "path": "chatbot/context_processors.py",
+    "language": "python",
+    "imports": [
+      "vtm::chatbot/models.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication"
+    ]
+  },
+  "vtm::chatbot/models.py": {
+    "repo": "vtm",
+    "path": "chatbot/models.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [
+      "vtm::chatbot/context_processors.py",
+      "vtm::chatbot/views.py"
+    ],
+    "risk_tags": [
+      "authentication",
+      "authorization"
+    ]
+  },
+  "vtm::chatbot/tests.py": {
+    "repo": "vtm",
+    "path": "chatbot/tests.py",
+    "language": "python",
+    "imports": [
+      "vtm::chatbot/tools.py",
+      "vtm::chatbot/views.py",
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authorization"
+    ]
+  },
+  "vtm::chatbot/tools.py": {
+    "repo": "vtm",
+    "path": "chatbot/tools.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [
+      "vtm::chatbot/tests.py",
+      "vtm::chatbot/views.py"
+    ],
+    "risk_tags": []
+  },
+  "vtm::chatbot/urls.py": {
+    "repo": "vtm",
+    "path": "chatbot/urls.py",
+    "language": "python",
+    "imports": [
+      "vtm::chatbot/__init__.py",
+      "vtm::chatbot/views.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication"
+    ]
+  },
+  "vtm::chatbot/views.py": {
+    "repo": "vtm",
+    "path": "chatbot/views.py",
+    "language": "python",
+    "imports": [
+      "vtm::chatbot/models.py",
+      "vtm::chatbot/tools.py"
+    ],
+    "imported_by": [
+      "vtm::chatbot/tests.py",
+      "vtm::chatbot/urls.py"
+    ],
+    "risk_tags": [
+      "authentication",
+      "authorization"
+    ]
+  },
+  "vtm::chatbot/__init__.py": {
+    "repo": "vtm",
+    "path": "chatbot/__init__.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [
+      "vtm::chatbot/urls.py"
+    ],
+    "risk_tags": []
+  },
+  "vtm::taskManager/forms.py": {
+    "repo": "vtm",
+    "path": "taskManager/forms.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [
+      "vtm::taskManager/views.py"
+    ],
+    "risk_tags": [
+      "authentication",
+      "authorization"
+    ]
+  },
+  "vtm::taskManager/middleware.py": {
+    "repo": "vtm",
+    "path": "taskManager/middleware.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication"
+    ]
+  },
+  "vtm::taskManager/misc.py": {
+    "repo": "vtm",
+    "path": "taskManager/misc.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [
+      "vtm::taskManager/views.py"
+    ],
+    "risk_tags": [
+      "injection"
+    ]
+  },
+  "vtm::taskManager/models.py": {
+    "repo": "vtm",
+    "path": "taskManager/models.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [
+      "vtm::chatbot/tests.py",
+      "vtm::chatbot/tools.py",
+      "vtm::taskManager/forms.py",
+      "vtm::taskManager/serializers.py",
+      "vtm::taskManager/test_preservation.py",
+      "vtm::taskManager/tests.py",
+      "vtm::taskManager/views.py"
+    ],
+    "risk_tags": []
+  },
+  "vtm::taskManager/serializers.py": {
+    "repo": "vtm",
+    "path": "taskManager/serializers.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [
+      "vtm::taskManager/urls.py"
+    ],
+    "risk_tags": []
+  },
+  "vtm::taskManager/settings.py": {
+    "repo": "vtm",
+    "path": "taskManager/settings.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication",
+      "authorization"
+    ]
+  },
+  "vtm::taskManager/taskManager_urls.py": {
+    "repo": "vtm",
+    "path": "taskManager/taskManager_urls.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/__init__.py",
+      "vtm::taskManager/views.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication"
+    ]
+  },
+  "vtm::taskManager/tests.py": {
+    "repo": "vtm",
+    "path": "taskManager/tests.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication",
+      "authorization"
+    ]
+  },
+  "vtm::taskManager/test_preservation.py": {
+    "repo": "vtm",
+    "path": "taskManager/test_preservation.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication",
+      "authorization",
+      "injection"
+    ]
+  },
+  "vtm::taskManager/urls.py": {
+    "repo": "vtm",
+    "path": "taskManager/urls.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/serializers.py",
+      "vtm::taskManager/views.py"
+    ],
+    "imported_by": [],
+    "risk_tags": [
+      "authentication"
+    ]
+  },
+  "vtm::taskManager/views.py": {
+    "repo": "vtm",
+    "path": "taskManager/views.py",
+    "language": "python",
+    "imports": [
+      "vtm::taskManager/forms.py",
+      "vtm::taskManager/misc.py",
+      "vtm::taskManager/models.py"
+    ],
+    "imported_by": [
+      "vtm::taskManager/taskManager_urls.py",
+      "vtm::taskManager/urls.py"
+    ],
+    "risk_tags": [
+      "authentication",
+      "authorization",
+      "injection"
+    ]
+  },
+  "vtm::taskManager/wsgi.py": {
+    "repo": "vtm",
+    "path": "taskManager/wsgi.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [],
+    "risk_tags": []
+  },
+  "vtm::taskManager/__init__.py": {
+    "repo": "vtm",
+    "path": "taskManager/__init__.py",
+    "language": "python",
+    "imports": [],
+    "imported_by": [
+      "vtm::taskManager/taskManager_urls.py"
+    ],
+    "risk_tags": []
+  }
+}

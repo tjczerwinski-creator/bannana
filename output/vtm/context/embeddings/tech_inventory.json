@@ -1,0 +1,9 @@
+{
+  "path": "repo\\vtm",
+  "languages": {
+    "python": 22
+  },
+  "frameworks": [
+    "django"
+  ]
+}

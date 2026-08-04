@@ -1,0 +1,434 @@
+[
+  {
+    "repo": "vtm",
+    "path": "^page/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 5,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^stream/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 6,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^send/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 7,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^sessions/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 8,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^session/(?P<pk>[^/]+)/messages/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 9,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^session/new/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 10,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^session/(?P<pk>[^/]+)/delete/$",
+    "method": "ANY",
+    "file": "chatbot/urls.py",
+    "line": 11,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 6,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^view_all_users/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 9,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^download/(?P<file_id>\\d+)/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 13,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/upload/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 15,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^downloadprofilepic/(?P<user_id>\\d+)/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 17,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^register/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 21,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^login/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 22,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^logout/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 23,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^manage_groups/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 24,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^profile/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 26,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^change_password/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 27,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^forgot_password/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 29,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^reset_password/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 31,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^profile/(?P<user_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 33,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^profile_view/(?P<user_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 35,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^project_create/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 39,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/edit_project/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 41,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^manage_projects/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 43,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/project_delete/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 45,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>.+)/project_details/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 47,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^project_list/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 49,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/task_create/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 53,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/(?P<task_id>\\d+)/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 55,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/task_edit/(?P<task_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 57,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/task_delete/(?P<task_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 59,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/task_complete/(?P<task_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 61,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^task_list/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 63,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/manage_tasks/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 64,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/(?P<task_id>\\d+)/note_create/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 69,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/(?P<task_id>\\d+)/note_edit/(?P<note_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 71,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^(?P<project_id>\\d+)/(?P<task_id>\\d+)/note_delete/(?P<note_id>\\d+)$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 73,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^dashboard/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 76,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^search/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 77,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^settings/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 80,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^view_img/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 81,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^ping/$",
+    "method": "ANY",
+    "file": "taskManager/taskManager_urls.py",
+    "line": 82,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^$",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 26,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^taskManager/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 27,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^admin/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 28,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^ht/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 29,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^api/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 30,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^api-auth/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 31,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^api-token/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 32,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^schema/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 33,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^swagger-ui/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 34,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^redoc/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 35,
+    "source": "django-url"
+  },
+  {
+    "repo": "vtm",
+    "path": "^chat/",
+    "method": "ANY",
+    "file": "taskManager/urls.py",
+    "line": 36,
+    "source": "django-url"
+  }
+]
